@@ -46,9 +46,6 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           <div className="text-center lg:text-left">
-            <div className="flex justify-center lg:justify-start mb-6">
-              <Image src="/fity-logo.png" alt="Fity AI Gym Bro" width={180} height={180} className="drop-shadow-[0_0_30px_rgba(163,255,0,0.3)]" />
-            </div>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-neon-lime/30 bg-neon-lime/5 text-neon-lime text-sm font-medium mb-6">
               <Sparkles className="w-4 h-4" /> Tu Gym Bro con IA
             </div>
